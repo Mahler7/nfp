@@ -12,3 +12,44 @@
  *
  */
  @import "bootstrap";
+
+$navbar-default-bg: #2B6396;
+$theme-color: #073b15;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+}
+
+.navbar {
+  background-color: $navbar-default-bg;
+}
+
+.main-footer {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.footer {
+  margin-top: -50px;
+  border-top: 1px solid #eaeaea;
+  color: #fff;
+  background-color: $navbar-default-bg;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  clear: both;
+}
+.footer ul {
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+}
